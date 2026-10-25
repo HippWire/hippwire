@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 629 200" width="629" height="200" role="img" aria-labelledby="t d">
+  <title id="t">HippWire</title>
+  <desc id="d">Logo: a stylised coronal section of the mouse hippocampus drawn as interlocking wire traces with neuron nodes, next to the HippWire wordmark.</desc>
+  <defs>
+    <linearGradient id="gA" x1="20" y1="30" x2="185" y2="140" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#14B8A6"/>
+      <stop offset="1" stop-color="#2563EB"/>
+    </linearGradient>
+    <linearGradient id="gB" x1="80" y1="70" x2="150" y2="165" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6366F1"/>
+      <stop offset="1" stop-color="#14B8A6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ===== Icon: hippocampus (coronal section) as wires ===== -->
+  <g id="icon" transform="translate(0 10)">
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Ammon's horn (CA1 -> CA3), ends in a hook around the dentate gyrus -->
+    <path d="M24 104 C22 58 62 28 108 28 C156 28 186 62 179 104 C173 138 140 152 118 135 C104 124 108 104 126 103"
+          stroke="url(#gA)" stroke-width="13"/>
+    <!-- Dentate gyrus: a C-shaped blade wrapping the CA3 hook -->
+    <path d="M134 70 C92 68 68 98 82 128 C93 150 114 162 138 160"
+          stroke="url(#gB)" stroke-width="13"/>
+    <!-- mossy-fibre trace linking DG to CA3 -->
+    <path d="M138 160 L158 160 L170 148" stroke="#14B8A6" stroke-width="3.5"/>
+    <path d="M134 70 L150 70 L160 80" stroke="#6366F1" stroke-width="3.5"/>
+    <!-- Schaffer-style spur on the CA arc -->
+    <path d="M66 38 L58 20 L72 8" stroke="#14B8A6" stroke-width="3.5"/>
+  </g>
+  <g id="nodes">
+    <!-- hollow ring nodes at wire ends -->
+    <g fill="#ffffff" stroke-width="5">
+      <circle cx="24" cy="104" r="8" stroke="#14B8A6"/>
+      <circle cx="126" cy="103" r="8" stroke="#2563EB"/>
+      <circle cx="134" cy="70" r="8" stroke="#6366F1"/>
+      <circle cx="138" cy="160" r="8" stroke="#14B8A6"/>
+    </g>
+    <!-- solid terminals on spurs -->
+    <circle cx="170" cy="148" r="5.5" fill="#14B8A6"/>
+    <circle cx="160" cy="80" r="5.5" fill="#6366F1"/>
+    <circle cx="72" cy="8" r="5.5" fill="#14B8A6"/>
+  </g>
+  </g>
+
+  <!-- ===== Wordmark (outlined text, Inter) ===== -->
+  <g id="wordmark">
+    <path id="hipp" fill="#0F1B33" d="M212.06 128H225.77V99.47H254.92V128H268.67V61.07H254.92V88.11H225.77V61.07H212.06Z M279.38 128H292.85V77.78H279.38ZM286.11 71.22C290.16 71.22 293.53 68.16 293.53 64.3C293.53 60.48 290.16 57.38 286.11 57.38C282.03 57.38 278.7 60.48 278.7 64.3C278.7 68.16 282.03 71.22 286.11 71.22Z M303.2 146.78H316.68V119.96H317.08C318.97 124 323.1 128.85 331.33 128.85C342.92 128.85 351.76 119.69 351.76 102.98C351.76 85.82 342.56 77.15 331.42 77.15C322.88 77.15 318.93 82.22 317.08 86.22H316.46V77.78H303.2ZM327.19 118.03C320.32 118.03 316.37 112.01 316.37 102.93C316.37 93.81 320.27 87.93 327.19 87.93C334.25 87.93 337.97 94.13 337.97 102.93C337.97 111.78 334.2 118.03 327.19 118.03Z M360.09 146.78H373.57V119.96H373.98C375.86 124 379.99 128.85 388.22 128.85C399.81 128.85 408.65 119.69 408.65 102.98C408.65 85.82 399.45 77.15 388.31 77.15C379.77 77.15 375.82 82.22 373.98 86.22H373.35V77.78H360.09ZM384.08 118.03C377.21 118.03 373.26 112.01 373.26 102.93C373.26 93.81 377.16 87.93 384.08 87.93C391.14 87.93 394.86 94.13 394.86 102.93C394.86 111.78 391.09 118.03 384.08 118.03Z"/>
+    <path id="wire" fill="#0F9F90" d="M432.81 128H442.78L454.24 85.59C455.54 80.74 456.53 76.21 457.52 70.72C458.55 76.61 459.63 81.33 460.79 85.59L472.29 128H482.22L500.55 61.07H491.75L481.19 102.12C479.75 107.79 478.4 113.58 477.24 119.78C475.98 113.58 474.63 107.79 473.15 102.12L462.41 61.07H452.71L441.88 102.12C440.36 107.88 439.05 113.76 437.84 120.05C436.63 113.76 435.32 107.88 433.89 102.12L423.29 61.07H414.57Z M508.88 128H516.97V77.78H508.88Z M530.06 128H538.14V96.55C538.14 89.77 543.44 84.88 550.68 84.88C552.83 84.88 555.03 85.23 555.53 85.32V77.19C554.58 77.15 552.61 77.06 551.44 77.06C545.47 77.06 540.25 80.43 538.41 85.5H537.87V77.78H530.06Z M584.7 129.08C594.99 129.08 602.49 123.91 604.83 116.32L597.01 114.16C595.12 119.29 590.68 121.89 584.75 121.89C575.85 121.89 569.74 116.14 569.34 105.63H605.64V102.26C605.64 83.71 594.4 77.15 583.76 77.15C570.06 77.15 561.16 87.88 561.16 103.29C561.16 118.75 570.15 129.08 584.7 129.08ZM569.38 98.8C569.88 91.12 575.13 84.34 583.76 84.34C592.02 84.34 596.65 90.27 597.41 98.8Z"/>
+    <circle id="i-node" cx="512.9" cy="63.5" r="6.9" fill="#2563EB"/>
+  </g>
+</svg>
