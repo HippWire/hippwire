@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://hippwire.github.io/sitemap.xml
+Sitemap: https://hippwire.github.io/hippwire/sitemap.xml
