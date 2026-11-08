@@ -4,62 +4,72 @@
 
   <url>
        <loc>https://hippwire.github.io/hippwire/</loc>
-       <lastmod>2026-10-26T00:16:40+00:00</lastmod>
+       <lastmod>2026-11-08T17:42:11+00:00</lastmod>
        <priority>1.0000</priority>
   </url>
   <url>
        <loc>https://hippwire.github.io/hippwire/feed.xml</loc>
-       <lastmod>2026-10-26T00:16:40+00:00</lastmod>
+       <lastmod>2026-11-08T17:42:11+00:00</lastmod>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://hippwire.github.io/hippwire/topics/</loc>
-       <lastmod>2026-10-26T00:16:40+00:00</lastmod>
+       <lastmod>2026-11-08T17:42:11+00:00</lastmod>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://hippwire.github.io/hippwire/tasks/</loc>
+       <lastmod>2026-11-08T17:42:11+00:00</lastmod>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://hippwire.github.io/hippwire/gallery/</loc>
-       <lastmod>2026-10-26T00:16:40+00:00</lastmod>
+       <lastmod>2026-11-08T17:42:11+00:00</lastmod>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://hippwire.github.io/hippwire/team/</loc>
-       <lastmod>2026-10-26T00:16:40+00:00</lastmod>
+       <lastmod>2026-11-08T17:42:11+00:00</lastmod>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://hippwire.github.io/hippwire/join/</loc>
-       <lastmod>2026-10-26T00:16:40+00:00</lastmod>
+       <lastmod>2026-11-08T17:42:11+00:00</lastmod>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://hippwire.github.io/hippwire/zh/</loc>
-       <lastmod>2026-10-26T00:16:40+00:00</lastmod>
+       <lastmod>2026-11-08T17:42:11+00:00</lastmod>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://hippwire.github.io/hippwire/zh/topics/</loc>
-       <lastmod>2026-10-26T00:16:40+00:00</lastmod>
+       <lastmod>2026-11-08T17:42:11+00:00</lastmod>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://hippwire.github.io/hippwire/zh/tasks/</loc>
+       <lastmod>2026-11-08T17:42:11+00:00</lastmod>
        <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://hippwire.github.io/hippwire/zh/gallery/</loc>
-       <lastmod>2026-10-26T00:16:40+00:00</lastmod>
+       <lastmod>2026-11-08T17:42:11+00:00</lastmod>
        <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://hippwire.github.io/hippwire/zh/team/</loc>
-       <lastmod>2026-10-26T00:16:40+00:00</lastmod>
+       <lastmod>2026-11-08T17:42:11+00:00</lastmod>
        <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://hippwire.github.io/hippwire/zh/join/</loc>
-       <lastmod>2026-10-26T00:16:40+00:00</lastmod>
+       <lastmod>2026-11-08T17:42:11+00:00</lastmod>
        <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://hippwire.github.io/hippwire/zh/feed.xml</loc>
-       <lastmod>2026-10-26T00:16:40+00:00</lastmod>
+       <lastmod>2026-11-08T17:42:11+00:00</lastmod>
        <priority>0.6400</priority>
   </url>
 </urlset>
