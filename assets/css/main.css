@@ -61,7 +61,8 @@ a:hover { color: var(--accent-dim); }
 
 .container {
   width: 100%;
-  max-width: 1140px;
+  /* max-width: 1140px; */
+  max-width: 75%;
   margin: 0 auto;
   padding: 0 1.5rem;
 }
@@ -722,7 +723,7 @@ a:hover { color: var(--accent-dim); }
 /* Team */
 .team-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 1.5rem;
 }
 .team-card {
