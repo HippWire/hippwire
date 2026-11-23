@@ -536,6 +536,20 @@ a:hover { color: var(--accent-dim); }
   aspect-ratio: 16 / 9;
   border: 0;
 }
+.task-figure {
+  margin: 0;
+  border-radius: 14px;
+  overflow: hidden;
+  background: #0b1530;
+  box-shadow: 0 0 0 1px var(--border), var(--shadow);
+}
+.task-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
 
 /* Gallery */
 .gallery-grid {
